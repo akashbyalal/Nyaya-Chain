@@ -109,25 +109,77 @@ app.post("/api/firs/analyze", async (request, response) => {
 app.post("/api/firs", async (request, response) => {
   try {
     const input = firSchema.parse(request.body)
-    const analysis = await analyseFir(input)
-    const number = firNumber()
-    const { data: fir, error } = await supabase.from("firs").insert({
-      fir_number: number, complainant_name: input.complainantName, complainant_email: input.complainantEmail,
-      incident_date: input.incidentDate, location: input.location, description: input.description, legal_analysis: analysis,
-    }).select("id, fir_number").single()
-    if (error) throw new Error(`FIR could not be stored: ${error.message}`)
+    let analysis: LegalAnalysis
+    let aiAvailable = true
+    try {
+      analysis = await analyseFir(input)
+    } catch (aiError) {
+      console.error("AI analysis failed:", aiError)
 
+      aiAvailable = false
+
+      analysis = {
+        summary: "AI legal analysis is temporarily unavailable.",
+        recommendations: [],
+        victimActions: [
+          "Keep all available evidence related to the incident.",
+          "Wait for the investigating officer to review your complaint."
+        ],
+        disclaimer:
+          "The FIR has been successfully registered, but AI analysis could not be generated due to a temporary service issue. A qualified legal professional should review this complaint."
+      }
+    }
+    const number = firNumber()
+    const { data: fir, error } = await supabase
+      .from("firs")
+      .insert({
+        fir_number: number,
+        complainant_name: input.complainantName,
+        complainant_email: input.complainantEmail,
+        incident_date: input.incidentDate,
+        location: input.location,
+        description: input.description,
+        legal_analysis: analysis,
+      })
+      .select("id, fir_number")
+      .single()
+    if (error) {
+      throw new Error(`FIR could not be stored: ${error.message}`)
+    }
     let emailSent = false
     try {
-      await sendRegistrationEmail(input.complainantEmail, input.complainantName, number)
+      await sendRegistrationEmail(
+        input.complainantEmail,
+        input.complainantName,
+        number
+      )
       emailSent = true
-      await supabase.from("firs").update({ email_sent_at: new Date().toISOString() }).eq("id", fir.id)
+      await supabase
+        .from("firs")
+        .update({
+          email_sent_at: new Date().toISOString(),
+        })
+        .eq("id", fir.id)
+
     } catch (mailError) {
-      console.error("Registration email failed", mailError)
+      console.error("Registration email failed:", mailError)
     }
-    response.status(201).json({ fir: { id: fir.id, firNumber: fir.fir_number }, analysis, emailSent })
+    response.status(201).json({
+      fir: {
+        id: fir.id,
+        firNumber: fir.fir_number,
+      },
+      analysis,
+      emailSent,
+      aiAvailable,
+    })
   } catch (error) {
-    response.status(400).json({ error: error instanceof Error ? error.message : "Unable to register the FIR." })
+    response.status(400).json({
+      error:
+        error instanceof Error
+          ? error.message
+          : "Unable to register the FIR.",
+    })
   }
 })
 
