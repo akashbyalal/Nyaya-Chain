@@ -4,13 +4,3 @@
 
 - `frontend/`: Next.js police, evidence, court and admin interface.
 - `backend/`: Express API for FIR registration, Gemini legal-information analysis, Supabase storage, and confirmation email delivery.
-
-## Setup
-
-1. Copy `backend/.env.example` to `backend/.env` and fill in the Supabase service-role key, Gemini key, and email-provider settings. Gmail SMTP with a Google App Password is configured for college-project testing; Resend remains available when you have a verified domain.
-2. Run `backend/supabase/001_create_firs.sql` in the Supabase SQL editor. If the table was already created, also run `backend/supabase/002_add_fir_status_constraint.sql`.
-3. Copy `frontend/.env.example` to `frontend/.env.local` and set `NEXT_PUBLIC_API_URL` if the API is not on `http://localhost:4000`.
-4. Install dependencies in each app: `cd frontend; npm install` and `cd ../backend; npm install`.
-5. Start the API with `cd backend; npm run dev` and the UI with `cd frontend; npm run dev`.
-
-The backend deliberately keeps secret API keys off the client. Gemini output is presented as legal information and must be verified by a qualified legal professional.
