@@ -1,0 +1,5 @@
+
+# Application secrets
+.env
+.env.*
+!.env.example
