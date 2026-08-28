@@ -1,0 +1,49 @@
+{
+  "_format": "hh3-sol-build-info-1",
+  "id": "solc-0_8_28-6283eb6175e646704b0c8b333406e50f3d4d0314",
+  "solcVersion": "0.8.28",
+  "solcLongVersion": "0.8.28+commit.7893614a",
+  "compilerType": "solc",
+  "toolVersions": {
+    "hardhat": "3.12.0"
+  },
+  "userSourceNameMap": {
+    "contracts/EvidenceRegistry.sol": "project/contracts/EvidenceRegistry.sol"
+  },
+  "input": {
+    "language": "Solidity",
+    "settings": {
+      "evmVersion": "cancun",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "": [
+            "ast"
+          ],
+          "*": [
+            "abi",
+            "evm.bytecode.linkReferences",
+            "evm.bytecode.object",
+            "evm.bytecode.opcodes",
+            "evm.bytecode.sourceMap",
+            "evm.deployedBytecode.immutableReferences",
+            "evm.deployedBytecode.linkReferences",
+            "evm.deployedBytecode.object",
+            "evm.deployedBytecode.opcodes",
+            "evm.deployedBytecode.sourceMap",
+            "evm.methodIdentifiers"
+          ]
+        }
+      },
+      "remappings": []
+    },
+    "sources": {
+      "project/contracts/EvidenceRegistry.sol": {
+        "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.28;\n\ncontract EvidenceRegistry {\n\n    // Represents one evidence record stored on-chain\n    struct Evidence {\n        string firNumber;\n        string fileHash;\n        uint256 timestamp;\n        address uploadedBy;\n        bool exists;\n    }\n\n    // Maps a SHA-256 hash to its evidence record\n    mapping(string => Evidence) private evidenceRecords;\n\n    // Event emitted whenever evidence is registered\n    event EvidenceRegistered(\n        string indexed fileHash,\n        string firNumber,\n        address indexed uploadedBy,\n        uint256 timestamp\n    );\n\n    /**\n     * Register a new evidence hash on the blockchain.\n     */\n    function registerEvidence(\n        string memory fileHash,\n        string memory firNumber\n    ) public {\n\n        require(bytes(fileHash).length > 0, \"File hash cannot be empty\");\n        require(bytes(firNumber).length > 0, \"FIR number cannot be empty\");\n        require(\n            !evidenceRecords[fileHash].exists,\n            \"Evidence already registered\"\n        );\n\n        evidenceRecords[fileHash] = Evidence({\n            firNumber: firNumber,\n            fileHash: fileHash,\n            timestamp: block.timestamp,\n            uploadedBy: msg.sender,\n            exists: true\n        });\n\n        emit EvidenceRegistered(\n            fileHash,\n            firNumber,\n            msg.sender,\n            block.timestamp\n        );\n    }\n\n    /**\n     * Returns true if this evidence hash exists.\n     */\n    function verifyEvidence(\n        string memory fileHash\n    ) public view returns (bool) {\n\n        return evidenceRecords[fileHash].exists;\n    }\n\n    /**\n     * Returns complete evidence information.\n     */\n    function getEvidence(\n        string memory fileHash\n    )\n        public\n        view\n        returns (\n            string memory firNumber,\n            uint256 timestamp,\n            address uploadedBy\n        )\n    {\n\n        require(\n            evidenceRecords[fileHash].exists,\n            \"Evidence not found\"\n        );\n\n        Evidence memory record = evidenceRecords[fileHash];\n\n        return (\n            record.firNumber,\n            record.timestamp,\n            record.uploadedBy\n        );\n    }\n}"
+      }
+    }
+  }
+}
