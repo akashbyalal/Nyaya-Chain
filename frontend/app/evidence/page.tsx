@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { Suspense, useEffect, useState, useRef } from "react";
 
 import {
   uploadEvidence,
@@ -102,9 +102,9 @@ const FileIcon = ({ type }: { type: string }) => {
     default:
       return <FileText className="h-8 w-8 text-accent" />;
   }
-};
+}
 
-export default function EvidenceUploadPage() {
+function EvidenceUploadPage() {
   const searchParams = useSearchParams();
   const firId = searchParams.get("firId");
 
@@ -624,5 +624,13 @@ export default function EvidenceUploadPage() {
         </Card>
       </div>
     </DashboardLayout>
+  );
+}
+
+export default function EvidencePage() {
+  return (
+    <Suspense fallback={null}>
+      <EvidenceUploadPage />
+    </Suspense>
   );
 }
