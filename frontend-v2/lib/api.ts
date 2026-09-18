@@ -41,7 +41,8 @@ export const FIR_STATUSES = [
 
 export type FirStatus = (typeof FIR_STATUSES)[number];
 
-const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:4000";
+// Requests stay same-origin in the browser and Next.js proxies /api/* to the backend.
+const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "";
 
 async function request<T>(path: string, init: RequestInit): Promise<T> {
   const response = await fetch(`${apiUrl}${path}`, {

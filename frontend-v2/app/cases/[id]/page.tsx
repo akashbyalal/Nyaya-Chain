@@ -12,6 +12,8 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { BlockchainDemoButton } from "@/components/BlockchainDemoButton"
+import { VerifyOnChainButton } from "@/components/VerifyOnChainButton"
 import {
   Select,
   SelectContent,
@@ -407,6 +409,11 @@ export default function CaseDetailPage() {
                           : "Tampered: file hash or blockchain record did not match."}
                       </p>
                     )}
+
+                    <div className="grid w-full gap-3 border-t border-border/50 pt-4 sm:grid-cols-2">
+                      <BlockchainDemoButton fileHash={item.fileHash} firNumber={fir.firNumber} />
+                      <VerifyOnChainButton fileHash={item.fileHash} />
+                    </div>
                   </div>
                 ))}
               </div>
