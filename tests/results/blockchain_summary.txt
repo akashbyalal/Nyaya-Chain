@@ -1,0 +1,19 @@
+Table 9 — Blockchain transaction performance
+Network: Sepolia (chain ID 11155111)
+Contract: 0xbeDeFB98AB802E8a99a4d5F8f7D26c28242d890f
+Preflight block: 11862982
+Concurrency 10: attempted=10 successful=10 failed=0 mean_ms=8881.600 median_ms=8881.000 throughput_tx_per_sec=0.974133 mean_gas_used=683164.00 failure_rate=0.00%
+Notes: 
+
+Concurrency 50: attempted=50 successful=50 failed=0 mean_ms=14307.360 median_ms=13186.000 throughput_tx_per_sec=2.145397 mean_gas_used=683164.00 failure_rate=0.00%
+Notes: 
+
+Concurrency 100: attempted=100 successful=98 failed=2 mean_ms=25857.092 median_ms=21415.000 throughput_tx_per_sec=2.666700 mean_gas_used=683176.00 failure_rate=2.00%
+Notes: Higher concurrency stopped after this level because one or more transactions failed.
+
+Concurrency 500: attempted=0 successful=0 failed=0 mean_ms= median_ms= throughput_tx_per_sec= mean_gas_used= failure_rate=
+Notes: NOT RUN: concurrency capped at 100 to avoid overwhelming the configured RPC provider
+
+Concurrency 1000: attempted=0 successful=0 failed=0 mean_ms= median_ms= throughput_tx_per_sec= mean_gas_used= failure_rate=
+Notes: NOT RUN: concurrency capped at 100 to avoid overwhelming the configured RPC provider
+

@@ -1,0 +1,601 @@
+operation,variant,trial_number,latency_ms,status,error,timestamp
+FIR registration time,baseline,1,1409.046,PASS,,2026-10-07T12:36:08Z
+FIR registration time,baseline,2,284.526,PASS,,2026-10-07T12:36:08Z
+FIR registration time,baseline,3,148.925,PASS,,2026-10-07T12:36:08Z
+FIR registration time,baseline,4,127.569,PASS,,2026-10-07T12:36:09Z
+FIR registration time,baseline,5,113.638,PASS,,2026-10-07T12:36:09Z
+FIR registration time,baseline,6,116.396,PASS,,2026-10-07T12:36:09Z
+FIR registration time,baseline,7,114.698,PASS,,2026-10-07T12:36:10Z
+FIR registration time,baseline,8,109.941,PASS,,2026-10-07T12:36:10Z
+FIR registration time,baseline,9,105.255,PASS,,2026-10-07T12:36:10Z
+FIR registration time,baseline,10,108.589,PASS,,2026-10-07T12:36:11Z
+FIR registration time,baseline,11,102.808,PASS,,2026-10-07T12:36:11Z
+FIR registration time,baseline,12,145.642,PASS,,2026-10-07T12:36:11Z
+FIR registration time,baseline,13,102.501,PASS,,2026-10-07T12:36:12Z
+FIR registration time,baseline,14,103.777,PASS,,2026-10-07T12:36:12Z
+FIR registration time,baseline,15,126.893,PASS,,2026-10-07T12:36:12Z
+FIR registration time,baseline,16,106.440,PASS,,2026-10-07T12:36:13Z
+FIR registration time,baseline,17,102.112,PASS,,2026-10-07T12:36:13Z
+FIR registration time,baseline,18,101.492,PASS,,2026-10-07T12:36:13Z
+FIR registration time,baseline,19,124.377,PASS,,2026-10-07T12:36:13Z
+FIR registration time,baseline,20,96.552,PASS,,2026-10-07T12:36:14Z
+FIR registration time,baseline,21,100.193,PASS,,2026-10-07T12:36:14Z
+FIR registration time,baseline,22,92.106,PASS,,2026-10-07T12:36:14Z
+FIR registration time,baseline,23,124.878,PASS,,2026-10-07T12:36:15Z
+FIR registration time,baseline,24,98.804,PASS,,2026-10-07T12:36:15Z
+FIR registration time,baseline,25,104.326,PASS,,2026-10-07T12:36:15Z
+FIR registration time,baseline,26,107.219,PASS,,2026-10-07T12:36:16Z
+FIR registration time,baseline,27,247.937,PASS,,2026-10-07T12:36:16Z
+FIR registration time,baseline,28,109.838,PASS,,2026-10-07T12:36:16Z
+FIR registration time,baseline,29,107.920,PASS,,2026-10-07T12:36:17Z
+FIR registration time,baseline,30,126.486,PASS,,2026-10-07T12:36:17Z
+Evidence upload time,baseline,1,339.700,PASS,,2026-10-07T12:36:18Z
+Evidence upload time,nyaya_chain,1,20345.700,PASS,,2026-10-07T12:36:38Z
+Evidence upload time,baseline,2,456.723,PASS,,2026-10-07T12:36:39Z
+Evidence upload time,nyaya_chain,2,13953.347,PASS,,2026-10-07T12:36:53Z
+Evidence upload time,baseline,3,282.078,PASS,,2026-10-07T12:36:53Z
+Evidence upload time,nyaya_chain,3,8931.722,PASS,,2026-10-07T12:37:02Z
+Evidence upload time,baseline,4,454.018,PASS,,2026-10-07T12:37:02Z
+Evidence upload time,nyaya_chain,4,13163.699,PASS,,2026-10-07T12:37:15Z
+Evidence upload time,baseline,5,358.892,PASS,,2026-10-07T12:37:16Z
+Evidence upload time,nyaya_chain,5,13303.086,PASS,,2026-10-07T12:37:29Z
+Evidence upload time,baseline,6,871.073,PASS,,2026-10-07T12:37:30Z
+Evidence upload time,nyaya_chain,6,13875.315,PASS,,2026-10-07T12:37:44Z
+Evidence upload time,baseline,7,579.808,PASS,,2026-10-07T12:37:44Z
+Evidence upload time,nyaya_chain,7,18215.843,PASS,,2026-10-07T12:38:03Z
+Evidence upload time,baseline,8,588.505,PASS,,2026-10-07T12:38:03Z
+Evidence upload time,nyaya_chain,8,13827.619,PASS,,2026-10-07T12:38:17Z
+Evidence upload time,baseline,9,570.181,PASS,,2026-10-07T12:38:18Z
+Evidence upload time,nyaya_chain,9,13556.394,PASS,,2026-10-07T12:38:31Z
+Evidence upload time,baseline,10,526.892,PASS,,2026-10-07T12:38:32Z
+Evidence upload time,nyaya_chain,10,,FAIL,full Nyaya upload did not confirm blockchain registration,2026-10-07T12:38:48Z
+Evidence upload time,baseline,11,398.444,PASS,,2026-10-07T12:38:49Z
+Evidence upload time,nyaya_chain,11,14377.722,PASS,,2026-10-07T12:39:03Z
+Evidence upload time,baseline,12,575.958,PASS,,2026-10-07T12:39:03Z
+Evidence upload time,nyaya_chain,12,10954.662,PASS,,2026-10-07T12:39:14Z
+Evidence upload time,baseline,13,606.340,PASS,,2026-10-07T12:39:15Z
+Evidence upload time,nyaya_chain,13,24310.264,PASS,,2026-10-07T12:39:39Z
+Evidence upload time,baseline,14,371.647,PASS,,2026-10-07T12:39:40Z
+Evidence upload time,nyaya_chain,14,23923.000,PASS,,2026-10-07T12:40:04Z
+Evidence upload time,baseline,15,422.432,PASS,,2026-10-07T12:40:04Z
+Evidence upload time,nyaya_chain,15,11687.475,PASS,,2026-10-07T12:40:16Z
+Evidence upload time,baseline,16,389.720,PASS,,2026-10-07T12:40:16Z
+Evidence upload time,nyaya_chain,16,11190.637,PASS,,2026-10-07T12:40:27Z
+Evidence upload time,baseline,17,442.061,PASS,,2026-10-07T12:40:28Z
+Evidence upload time,nyaya_chain,17,16236.582,PASS,,2026-10-07T12:40:44Z
+Evidence upload time,baseline,18,538.613,PASS,,2026-10-07T12:40:45Z
+Evidence upload time,nyaya_chain,18,20189.599,PASS,,2026-10-07T12:41:05Z
+Evidence upload time,baseline,19,361.411,PASS,,2026-10-07T12:41:05Z
+Evidence upload time,nyaya_chain,19,28173.940,PASS,,2026-10-07T12:41:33Z
+Evidence upload time,baseline,20,665.391,PASS,,2026-10-07T12:41:34Z
+Evidence upload time,nyaya_chain,20,,FAIL,full Nyaya upload did not confirm blockchain registration,2026-10-07T12:41:40Z
+Evidence upload time,baseline,21,417.428,PASS,,2026-10-07T12:41:41Z
+Evidence upload time,nyaya_chain,21,11378.962,PASS,,2026-10-07T12:41:52Z
+Evidence upload time,baseline,22,4786.414,PASS,,2026-10-07T12:41:57Z
+Evidence upload time,nyaya_chain,22,29841.692,PASS,,2026-10-07T12:42:27Z
+Evidence upload time,baseline,23,418.483,PASS,,2026-10-07T12:42:27Z
+Evidence upload time,nyaya_chain,23,23521.265,PASS,,2026-10-07T12:42:51Z
+Evidence upload time,baseline,24,698.955,PASS,,2026-10-07T12:42:51Z
+Evidence upload time,nyaya_chain,24,11175.830,PASS,,2026-10-07T12:43:03Z
+Evidence upload time,baseline,25,445.916,PASS,,2026-10-07T12:43:03Z
+Evidence upload time,nyaya_chain,25,16501.772,PASS,,2026-10-07T12:43:20Z
+Evidence upload time,baseline,26,675.510,PASS,,2026-10-07T12:43:20Z
+Evidence upload time,nyaya_chain,26,11476.096,PASS,,2026-10-07T12:43:32Z
+Evidence upload time,baseline,27,655.761,PASS,,2026-10-07T12:43:32Z
+Evidence upload time,nyaya_chain,27,11550.689,PASS,,2026-10-07T12:43:44Z
+Evidence upload time,baseline,28,700.206,PASS,,2026-10-07T12:43:45Z
+Evidence upload time,nyaya_chain,28,24537.717,PASS,,2026-10-07T12:44:09Z
+Evidence upload time,baseline,29,1238.832,PASS,,2026-10-07T12:44:10Z
+Evidence upload time,nyaya_chain,29,16952.603,PASS,,2026-10-07T12:44:27Z
+Evidence upload time,baseline,30,381.771,PASS,,2026-10-07T12:44:28Z
+Evidence upload time,nyaya_chain,30,12481.589,PASS,,2026-10-07T12:44:40Z
+Hash computation time,baseline,1,0.003,PASS,,2026-10-07T12:44:40Z
+Hash computation time,nyaya_chain,1,0.717137,PASS,,2026-10-07T12:44:40Z
+Hash computation time,baseline,2,0.007,PASS,,2026-10-07T12:44:40Z
+Hash computation time,nyaya_chain,2,0.708331,PASS,,2026-10-07T12:44:40Z
+Hash computation time,baseline,3,0.010,PASS,,2026-10-07T12:44:40Z
+Hash computation time,nyaya_chain,3,0.729811,PASS,,2026-10-07T12:44:40Z
+Hash computation time,baseline,4,0.010,PASS,,2026-10-07T12:44:40Z
+Hash computation time,nyaya_chain,4,0.757253,PASS,,2026-10-07T12:44:40Z
+Hash computation time,baseline,5,0.004,PASS,,2026-10-07T12:44:40Z
+Hash computation time,nyaya_chain,5,0.766891,PASS,,2026-10-07T12:44:40Z
+Hash computation time,baseline,6,0.004,PASS,,2026-10-07T12:44:40Z
+Hash computation time,nyaya_chain,6,0.695566,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,7,0.004,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,7,0.734289,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,8,0.005,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,8,0.724511,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,9,0.005,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,9,0.740912,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,10,0.008,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,10,0.727437,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,11,0.004,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,11,0.731434,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,12,0.004,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,12,0.852974,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,13,0.008,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,13,0.744489,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,14,0.004,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,14,0.711937,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,15,0.004,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,15,0.710885,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,16,0.010,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,16,0.708511,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,17,0.007,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,17,0.712879,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,18,0.014,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,18,0.707318,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,19,0.012,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,19,0.745611,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,20,0.006,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,20,0.747725,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,21,0.006,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,21,0.719592,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,22,0.006,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,22,0.750791,PASS,,2026-10-07T12:44:41Z
+Hash computation time,baseline,23,0.008,PASS,,2026-10-07T12:44:41Z
+Hash computation time,nyaya_chain,23,0.719472,PASS,,2026-10-07T12:44:42Z
+Hash computation time,baseline,24,0.005,PASS,,2026-10-07T12:44:42Z
+Hash computation time,nyaya_chain,24,0.721977,PASS,,2026-10-07T12:44:42Z
+Hash computation time,baseline,25,0.006,PASS,,2026-10-07T12:44:42Z
+Hash computation time,nyaya_chain,25,0.696158,PASS,,2026-10-07T12:44:42Z
+Hash computation time,baseline,26,0.004,PASS,,2026-10-07T12:44:42Z
+Hash computation time,nyaya_chain,26,0.724922,PASS,,2026-10-07T12:44:42Z
+Hash computation time,baseline,27,0.005,PASS,,2026-10-07T12:44:42Z
+Hash computation time,nyaya_chain,27,0.737045,PASS,,2026-10-07T12:44:42Z
+Hash computation time,baseline,28,0.004,PASS,,2026-10-07T12:44:42Z
+Hash computation time,nyaya_chain,28,0.711948,PASS,,2026-10-07T12:44:42Z
+Hash computation time,baseline,29,0.004,PASS,,2026-10-07T12:44:42Z
+Hash computation time,nyaya_chain,29,0.703912,PASS,,2026-10-07T12:44:42Z
+Hash computation time,baseline,30,0.004,PASS,,2026-10-07T12:44:42Z
+Hash computation time,nyaya_chain,30,0.793091,PASS,,2026-10-07T12:44:42Z
+Verification time,baseline,1,713.658,PASS,,2026-10-07T12:44:43Z
+Verification time,baseline,2,952.849,PASS,,2026-10-07T12:44:44Z
+Verification time,baseline,3,638.026,PASS,,2026-10-07T12:44:44Z
+Verification time,baseline,4,715.710,PASS,,2026-10-07T12:44:45Z
+Verification time,baseline,5,883.388,PASS,,2026-10-07T12:44:46Z
+Verification time,baseline,6,1004.381,PASS,,2026-10-07T12:44:47Z
+Verification time,baseline,7,700.363,PASS,,2026-10-07T12:44:48Z
+Verification time,baseline,8,931.397,PASS,,2026-10-07T12:44:49Z
+Verification time,baseline,9,1014.283,PASS,,2026-10-07T12:44:50Z
+Verification time,baseline,10,600.423,PASS,,2026-10-07T12:44:50Z
+Verification time,baseline,11,945.876,PASS,,2026-10-07T12:44:51Z
+Verification time,baseline,12,823.804,PASS,,2026-10-07T12:44:52Z
+Verification time,baseline,13,515.746,PASS,,2026-10-07T12:44:52Z
+Verification time,baseline,14,628.731,PASS,,2026-10-07T12:44:53Z
+Verification time,baseline,15,924.745,PASS,,2026-10-07T12:44:54Z
+Verification time,baseline,16,682.135,PASS,,2026-10-07T12:44:55Z
+Verification time,baseline,17,613.589,PASS,,2026-10-07T12:44:55Z
+Verification time,baseline,18,603.783,PASS,,2026-10-07T12:44:56Z
+Verification time,baseline,19,700.413,PASS,,2026-10-07T12:44:57Z
+Verification time,baseline,20,947.092,PASS,,2026-10-07T12:44:58Z
+Verification time,baseline,21,884.795,PASS,,2026-10-07T12:44:58Z
+Verification time,baseline,22,764.058,PASS,,2026-10-07T12:44:59Z
+Verification time,baseline,23,793.031,PASS,,2026-10-07T12:45:00Z
+Verification time,baseline,24,476.782,PASS,,2026-10-07T12:45:00Z
+Verification time,baseline,25,745.257,PASS,,2026-10-07T12:45:01Z
+Verification time,baseline,26,760.729,PASS,,2026-10-07T12:45:02Z
+Verification time,baseline,27,695.522,PASS,,2026-10-07T12:45:03Z
+Verification time,baseline,28,924.588,PASS,,2026-10-07T12:45:04Z
+Verification time,baseline,29,878.224,PASS,,2026-10-07T12:45:04Z
+Verification time,baseline,30,655.168,PASS,,2026-10-07T12:45:05Z
+Verification time,nyaya_chain,1,3145.359,PASS,,2026-10-07T12:45:08Z
+Verification time,nyaya_chain,2,1680.955,PASS,,2026-10-07T12:45:10Z
+Verification time,nyaya_chain,3,1539.523,PASS,,2026-10-07T12:45:11Z
+Verification time,nyaya_chain,4,1760.511,PASS,,2026-10-07T12:45:13Z
+Verification time,nyaya_chain,5,1502.247,PASS,,2026-10-07T12:45:15Z
+Verification time,nyaya_chain,6,1277.937,PASS,,2026-10-07T12:45:16Z
+Verification time,nyaya_chain,7,1924.563,PASS,,2026-10-07T12:45:18Z
+Verification time,nyaya_chain,8,1950.981,PASS,,2026-10-07T12:45:20Z
+Verification time,nyaya_chain,9,1602.923,PASS,,2026-10-07T12:45:21Z
+Verification time,nyaya_chain,10,1239.439,PASS,,2026-10-07T12:45:23Z
+Verification time,nyaya_chain,11,1549.678,PASS,,2026-10-07T12:45:24Z
+Verification time,nyaya_chain,12,1612.429,PASS,,2026-10-07T12:45:26Z
+Verification time,nyaya_chain,13,1640.534,PASS,,2026-10-07T12:45:28Z
+Verification time,nyaya_chain,14,1545.795,PASS,,2026-10-07T12:45:29Z
+Verification time,nyaya_chain,15,1654.107,PASS,,2026-10-07T12:45:31Z
+Verification time,nyaya_chain,16,1237.167,PASS,,2026-10-07T12:45:32Z
+Verification time,nyaya_chain,17,1445.111,PASS,,2026-10-07T12:45:33Z
+Verification time,nyaya_chain,18,1157.399,PASS,,2026-10-07T12:45:35Z
+Verification time,nyaya_chain,19,1598.474,PASS,,2026-10-07T12:45:36Z
+Verification time,nyaya_chain,20,1038.004,PASS,,2026-10-07T12:45:37Z
+Verification time,nyaya_chain,21,1460.944,PASS,,2026-10-07T12:45:39Z
+Verification time,nyaya_chain,22,1322.979,PASS,,2026-10-07T12:45:40Z
+Verification time,nyaya_chain,23,1416.837,PASS,,2026-10-07T12:45:41Z
+Verification time,nyaya_chain,24,1431.420,PASS,,2026-10-07T12:45:43Z
+Verification time,nyaya_chain,25,1276.292,PASS,,2026-10-07T12:45:44Z
+Verification time,nyaya_chain,26,1134.687,PASS,,2026-10-07T12:45:45Z
+Verification time,nyaya_chain,27,1478.430,PASS,,2026-10-07T12:45:47Z
+Verification time,nyaya_chain,28,1602.970,PASS,,2026-10-07T12:45:48Z
+Verification time,nyaya_chain,29,1387.811,PASS,,2026-10-07T12:45:50Z
+Verification time,nyaya_chain,30,1565.869,PASS,,2026-10-07T12:45:51Z
+Database response time,baseline,1,244.494,PASS,,2026-10-07T12:45:52Z
+Database response time,nyaya_chain,1,330.096,PASS,,2026-10-07T12:45:52Z
+Database response time,baseline,2,236.164,PASS,,2026-10-07T12:45:52Z
+Database response time,nyaya_chain,2,407.063,PASS,,2026-10-07T12:45:52Z
+Database response time,baseline,3,229.221,PASS,,2026-10-07T12:45:53Z
+Database response time,nyaya_chain,3,662.625,PASS,,2026-10-07T12:45:53Z
+Database response time,baseline,4,341.081,PASS,,2026-10-07T12:45:54Z
+Database response time,nyaya_chain,4,363.918,PASS,,2026-10-07T12:45:54Z
+Database response time,baseline,5,247.748,PASS,,2026-10-07T12:45:54Z
+Database response time,nyaya_chain,5,359.515,PASS,,2026-10-07T12:45:55Z
+Database response time,baseline,6,126.632,PASS,,2026-10-07T12:45:55Z
+Database response time,nyaya_chain,6,343.311,PASS,,2026-10-07T12:45:55Z
+Database response time,baseline,7,192.592,PASS,,2026-10-07T12:45:55Z
+Database response time,nyaya_chain,7,330.947,PASS,,2026-10-07T12:45:56Z
+Database response time,baseline,8,234.144,PASS,,2026-10-07T12:45:56Z
+Database response time,nyaya_chain,8,353.764,PASS,,2026-10-07T12:45:56Z
+Database response time,baseline,9,131.975,PASS,,2026-10-07T12:45:56Z
+Database response time,nyaya_chain,9,352.455,PASS,,2026-10-07T12:45:57Z
+Database response time,baseline,10,196.045,PASS,,2026-10-07T12:45:57Z
+Database response time,nyaya_chain,10,324.919,PASS,,2026-10-07T12:45:57Z
+Database response time,baseline,11,131.457,PASS,,2026-10-07T12:45:57Z
+Database response time,nyaya_chain,11,463.503,PASS,,2026-10-07T12:45:58Z
+Database response time,baseline,12,125.062,PASS,,2026-10-07T12:45:58Z
+Database response time,nyaya_chain,12,362.743,PASS,,2026-10-07T12:45:58Z
+Database response time,baseline,13,189.599,PASS,,2026-10-07T12:45:59Z
+Database response time,nyaya_chain,13,328.160,PASS,,2026-10-07T12:45:59Z
+Database response time,baseline,14,252.744,PASS,,2026-10-07T12:45:59Z
+Database response time,nyaya_chain,14,341.617,PASS,,2026-10-07T12:45:59Z
+Database response time,baseline,15,135.531,PASS,,2026-10-07T12:46:00Z
+Database response time,nyaya_chain,15,357.707,PASS,,2026-10-07T12:46:00Z
+Database response time,baseline,16,279.033,PASS,,2026-10-07T12:46:00Z
+Database response time,nyaya_chain,16,331.125,PASS,,2026-10-07T12:46:01Z
+Database response time,baseline,17,216.240,PASS,,2026-10-07T12:46:01Z
+Database response time,nyaya_chain,17,364.798,PASS,,2026-10-07T12:46:01Z
+Database response time,baseline,18,251.155,PASS,,2026-10-07T12:46:01Z
+Database response time,nyaya_chain,18,347.643,PASS,,2026-10-07T12:46:02Z
+Database response time,baseline,19,127.320,PASS,,2026-10-07T12:46:02Z
+Database response time,nyaya_chain,19,773.342,PASS,,2026-10-07T12:46:03Z
+Database response time,baseline,20,170.605,PASS,,2026-10-07T12:46:03Z
+Database response time,nyaya_chain,20,326.364,PASS,,2026-10-07T12:46:03Z
+Database response time,baseline,21,225.586,PASS,,2026-10-07T12:46:03Z
+Database response time,nyaya_chain,21,350.002,PASS,,2026-10-07T12:46:04Z
+Database response time,baseline,22,225.000,PASS,,2026-10-07T12:46:04Z
+Database response time,nyaya_chain,22,682.577,PASS,,2026-10-07T12:46:05Z
+Database response time,baseline,23,131.051,PASS,,2026-10-07T12:46:05Z
+Database response time,nyaya_chain,23,449.022,PASS,,2026-10-07T12:46:05Z
+Database response time,baseline,24,330.799,PASS,,2026-10-07T12:46:06Z
+Database response time,nyaya_chain,24,333.682,PASS,,2026-10-07T12:46:06Z
+Database response time,baseline,25,147.328,PASS,,2026-10-07T12:46:06Z
+Database response time,nyaya_chain,25,342.792,PASS,,2026-10-07T12:46:06Z
+Database response time,baseline,26,226.731,PASS,,2026-10-07T12:46:07Z
+Database response time,nyaya_chain,26,353.367,PASS,,2026-10-07T12:46:07Z
+Database response time,baseline,27,244.049,PASS,,2026-10-07T12:46:07Z
+Database response time,nyaya_chain,27,330.540,PASS,,2026-10-07T12:46:08Z
+Database response time,baseline,28,233.735,PASS,,2026-10-07T12:46:08Z
+Database response time,nyaya_chain,28,379.868,PASS,,2026-10-07T12:46:08Z
+Database response time,baseline,29,271.100,PASS,,2026-10-07T12:46:08Z
+Database response time,nyaya_chain,29,438.810,PASS,,2026-10-07T12:46:09Z
+Database response time,baseline,30,229.470,PASS,,2026-10-07T12:46:09Z
+Database response time,nyaya_chain,30,418.155,PASS,,2026-10-07T12:46:10Z
+Senior dashboard response time,baseline,1,537.062,PASS,,2026-10-07T12:46:10Z
+Senior dashboard response time,nyaya_chain,1,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:10Z
+Senior dashboard response time,baseline,2,359.980,PASS,,2026-10-07T12:46:10Z
+Senior dashboard response time,nyaya_chain,2,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:10Z
+Senior dashboard response time,baseline,3,316.153,PASS,,2026-10-07T12:46:11Z
+Senior dashboard response time,nyaya_chain,3,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:11Z
+Senior dashboard response time,baseline,4,320.759,PASS,,2026-10-07T12:46:11Z
+Senior dashboard response time,nyaya_chain,4,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:11Z
+Senior dashboard response time,baseline,5,447.143,PASS,,2026-10-07T12:46:11Z
+Senior dashboard response time,nyaya_chain,5,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:11Z
+Senior dashboard response time,baseline,6,465.768,PASS,,2026-10-07T12:46:12Z
+Senior dashboard response time,nyaya_chain,6,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:12Z
+Senior dashboard response time,baseline,7,362.561,PASS,,2026-10-07T12:46:12Z
+Senior dashboard response time,nyaya_chain,7,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:12Z
+Senior dashboard response time,baseline,8,584.073,PASS,,2026-10-07T12:46:13Z
+Senior dashboard response time,nyaya_chain,8,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:13Z
+Senior dashboard response time,baseline,9,351.194,PASS,,2026-10-07T12:46:13Z
+Senior dashboard response time,nyaya_chain,9,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:13Z
+Senior dashboard response time,baseline,10,339.283,PASS,,2026-10-07T12:46:14Z
+Senior dashboard response time,nyaya_chain,10,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:14Z
+Senior dashboard response time,baseline,11,642.057,PASS,,2026-10-07T12:46:14Z
+Senior dashboard response time,nyaya_chain,11,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:14Z
+Senior dashboard response time,baseline,12,317.698,PASS,,2026-10-07T12:46:15Z
+Senior dashboard response time,nyaya_chain,12,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:15Z
+Senior dashboard response time,baseline,13,319.676,PASS,,2026-10-07T12:46:15Z
+Senior dashboard response time,nyaya_chain,13,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:15Z
+Senior dashboard response time,baseline,14,318.925,PASS,,2026-10-07T12:46:15Z
+Senior dashboard response time,nyaya_chain,14,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:15Z
+Senior dashboard response time,baseline,15,317.534,PASS,,2026-10-07T12:46:16Z
+Senior dashboard response time,nyaya_chain,15,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:16Z
+Senior dashboard response time,baseline,16,318.299,PASS,,2026-10-07T12:46:16Z
+Senior dashboard response time,nyaya_chain,16,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:16Z
+Senior dashboard response time,baseline,17,320.653,PASS,,2026-10-07T12:46:16Z
+Senior dashboard response time,nyaya_chain,17,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:16Z
+Senior dashboard response time,baseline,18,319.349,PASS,,2026-10-07T12:46:16Z
+Senior dashboard response time,nyaya_chain,18,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:16Z
+Senior dashboard response time,baseline,19,318.275,PASS,,2026-10-07T12:46:17Z
+Senior dashboard response time,nyaya_chain,19,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:17Z
+Senior dashboard response time,baseline,20,319.151,PASS,,2026-10-07T12:46:17Z
+Senior dashboard response time,nyaya_chain,20,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:17Z
+Senior dashboard response time,baseline,21,317.941,PASS,,2026-10-07T12:46:17Z
+Senior dashboard response time,nyaya_chain,21,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:17Z
+Senior dashboard response time,baseline,22,317.436,PASS,,2026-10-07T12:46:18Z
+Senior dashboard response time,nyaya_chain,22,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:18Z
+Senior dashboard response time,baseline,23,319.730,PASS,,2026-10-07T12:46:18Z
+Senior dashboard response time,nyaya_chain,23,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:18Z
+Senior dashboard response time,baseline,24,320.540,PASS,,2026-10-07T12:46:18Z
+Senior dashboard response time,nyaya_chain,24,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:18Z
+Senior dashboard response time,baseline,25,318.403,PASS,,2026-10-07T12:46:19Z
+Senior dashboard response time,nyaya_chain,25,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:19Z
+Senior dashboard response time,baseline,26,317.794,PASS,,2026-10-07T12:46:19Z
+Senior dashboard response time,nyaya_chain,26,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:19Z
+Senior dashboard response time,baseline,27,319.097,PASS,,2026-10-07T12:46:19Z
+Senior dashboard response time,nyaya_chain,27,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:19Z
+Senior dashboard response time,baseline,28,687.268,PASS,,2026-10-07T12:46:20Z
+Senior dashboard response time,nyaya_chain,28,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:20Z
+Senior dashboard response time,baseline,29,393.160,PASS,,2026-10-07T12:46:20Z
+Senior dashboard response time,nyaya_chain,29,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:20Z
+Senior dashboard response time,baseline,30,320.180,PASS,,2026-10-07T12:46:21Z
+Senior dashboard response time,nyaya_chain,30,,FAIL,"FIR list returned HTTP 404: <!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /api/firs%3Flimit=50</pre>
+</body>
+</html>",2026-10-07T12:46:21Z

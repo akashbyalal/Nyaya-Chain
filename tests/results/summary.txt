@@ -1,0 +1,57 @@
+Nyaya-Chain Security Test Report
+===============================
+
+T8 File modification
+Status: PARTIAL/FAILED
+Expected: Modify registered file contents
+Actual: detected=26/30; rate=86.67%; false_positives=0; mean_detection_latency_ms=5302.670
+Latency: 5302.670 ms
+
+T8 File replacement
+Status: PARTIAL/FAILED
+Expected: Replace file, keep evidence ID
+Actual: detected=25/30; rate=83.33%; false_positives=0; mean_detection_latency_ms=6503.288
+Latency: 6503.288 ms
+
+T8 Metadata modification
+Status: PARTIAL/FAILED
+Expected: Change blockchain-bound FIR metadata in the disposable database record
+Actual: detected=26/30; rate=86.67%; false_positives=1; mean_detection_latency_ms=3425.038
+Latency: 3425.038 ms
+
+T8 Record deletion
+Status: PARTIAL/FAILED
+Expected: Remove repository/database record; confirm blockchain registration survives
+Actual: detected=25/30; rate=83.33%; false_positives=0; mean_detection_latency_ms=6624.136
+Latency: 6624.136 ms
+
+T8 Unauthorized write
+Status: NOT IMPLEMENTED
+Expected: NOT IMPLEMENTED: current application has no identity-based write authorization
+Actual: NOT IMPLEMENTED: current application has no identity-based write authorization
+
+T8 Unauthorized case transfer
+Status: NOT IMPLEMENTED
+Expected: NOT IMPLEMENTED: current application has no case-transfer authorization
+Actual: NOT IMPLEMENTED: current application has no case-transfer authorization
+
+A5 IPFS Unavailability
+Status: NOT APPLICABLE
+Expected: No IPFS test for the current MVP.
+Actual: Current MVP uses Supabase Storage instead of IPFS.
+
+A6 Unauthorized Access
+Status: NOT IMPLEMENTED
+Expected: Report missing application authorization honestly.
+Actual: The current MVP lacks sufficient application-level authorization for a meaningful unauthorized-access prevention experiment.
+
+A7 Replay Attack
+Status: PASS
+Expected: First registration of a unique hash succeeds; a second registration of the exact same hash is rejected by the contract.
+Actual: The first registration succeeded and the contract rejected the second transaction for the exact same global file hash.
+Original SHA-256: a5fff72086e359813cf803a83ff85ccefd0556df1be0a79d7071a0be33f3b6b5
+Test FIR: NYAYA-SEC-20261007-C26F77A1
+Blockchain transaction: 0x849ebd1511ddef578815bedc12fb4846efe321d21cb7c7152cdd2edadf7299ce; replay_attempt=0x77cebefdd720c1c91a5992708d839ba9e2112c8ca273b003b387907eaa6ab208
+Latency: 20183.093 ms
+Error/message: transaction execution reverted
+

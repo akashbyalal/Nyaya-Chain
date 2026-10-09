@@ -1,0 +1,6 @@
+concurrency,transactions,successful,failed,mean_latency_ms,median_latency_ms,throughput_tx_per_sec,mean_gas_used,failure_rate,notes
+10,10,10,0,8881.600,8881.000,0.974133,683164.00,0.00%,
+50,50,50,0,14307.360,13186.000,2.145397,683164.00,0.00%,
+100,100,98,2,25857.092,21415.000,2.666700,683176.00,2.00%,Higher concurrency stopped after this level because one or more transactions failed.
+500,0,0,0,,,,,,NOT RUN: concurrency capped at 100 to avoid overwhelming the configured RPC provider
+1000,0,0,0,,,,,,NOT RUN: concurrency capped at 100 to avoid overwhelming the configured RPC provider

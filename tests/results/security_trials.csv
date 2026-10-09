@@ -1,0 +1,121 @@
+test_name,trial_number,detected,false_positive,latency_ms,status,error,timestamp
+File modification,1,true,false,2296.067,PASS,,2026-10-07T11:19:57Z
+File replacement,1,false,false,30123.219,FAIL,"send POST http://localhost:4000/api/evidence: Post ""http://localhost:4000/api/evidence"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",2026-10-07T11:20:28Z
+Metadata modification,1,true,false,1277.827,PASS,,2026-10-07T11:20:57Z
+Record deletion,1,true,false,1232.045,PASS,,2026-10-07T11:21:21Z
+File modification,2,true,false,1639.840,PASS,,2026-10-07T11:21:47Z
+File replacement,2,false,false,30142.911,FAIL,"send POST http://localhost:4000/api/evidence: Post ""http://localhost:4000/api/evidence"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",2026-10-07T11:22:17Z
+Metadata modification,2,false,false,6437.510,FAIL,evidence registration was not confirmed,2026-10-07T11:22:24Z
+Record deletion,2,false,false,41461.747,FAIL,blockchain operation failed; check Sepolia RPC configuration and connectivity,2026-10-07T11:23:06Z
+File modification,3,true,false,1146.546,PASS,,2026-10-07T11:23:20Z
+File replacement,3,true,false,1487.784,PASS,,2026-10-07T11:23:29Z
+Metadata modification,3,true,false,1593.389,PASS,,2026-10-07T11:23:45Z
+Record deletion,3,true,false,1203.661,PASS,,2026-10-07T11:24:07Z
+File modification,4,true,false,1604.090,PASS,,2026-10-07T11:24:19Z
+File replacement,4,true,false,1802.182,PASS,,2026-10-07T11:24:31Z
+Metadata modification,4,false,true,1185.384,FAIL,,2026-10-07T11:24:48Z
+Record deletion,4,true,false,1033.303,PASS,,2026-10-07T11:25:06Z
+File modification,5,true,false,1464.438,PASS,,2026-10-07T11:25:20Z
+File replacement,5,true,false,1276.697,PASS,,2026-10-07T11:25:30Z
+Metadata modification,5,true,false,1185.654,PASS,,2026-10-07T11:25:44Z
+Record deletion,5,true,false,1607.316,PASS,,2026-10-07T11:25:54Z
+File modification,6,true,false,1216.393,PASS,,2026-10-07T11:26:20Z
+File replacement,6,true,false,1305.395,PASS,,2026-10-07T11:26:30Z
+Metadata modification,6,true,false,1050.976,PASS,,2026-10-07T11:26:45Z
+Record deletion,6,true,false,1347.487,PASS,,2026-10-07T11:26:54Z
+File modification,7,true,false,1583.997,PASS,,2026-10-07T11:27:09Z
+File replacement,7,true,false,1312.076,PASS,,2026-10-07T11:27:32Z
+Metadata modification,7,true,false,1141.765,PASS,,2026-10-07T11:27:56Z
+Record deletion,7,true,false,1653.353,PASS,,2026-10-07T11:28:19Z
+File modification,8,true,false,1863.923,PASS,,2026-10-07T11:28:43Z
+File replacement,8,true,false,1556.999,PASS,,2026-10-07T11:29:07Z
+Metadata modification,8,true,false,1321.836,PASS,,2026-10-07T11:29:35Z
+Record deletion,8,false,false,30147.557,FAIL,"send POST http://localhost:4000/api/evidence: Post ""http://localhost:4000/api/evidence"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",2026-10-07T11:30:05Z
+File modification,9,false,false,30513.304,FAIL,"send POST http://localhost:4000/api/evidence: Post ""http://localhost:4000/api/evidence"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",2026-10-07T11:30:36Z
+File replacement,9,true,false,1984.074,PASS,,2026-10-07T11:31:09Z
+Metadata modification,9,false,false,30132.215,FAIL,"send POST http://localhost:4000/api/evidence: Post ""http://localhost:4000/api/evidence"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",2026-10-07T11:31:40Z
+Record deletion,9,true,false,1478.806,PASS,,2026-10-07T11:32:07Z
+File modification,10,true,false,1388.269,PASS,,2026-10-07T11:32:31Z
+File replacement,10,true,false,1381.355,PASS,,2026-10-07T11:32:55Z
+Metadata modification,10,true,false,1613.399,PASS,,2026-10-07T11:33:24Z
+Record deletion,10,true,false,1279.429,PASS,,2026-10-07T11:33:57Z
+File modification,11,false,false,30102.954,FAIL,"send POST http://localhost:4000/api/evidence: Post ""http://localhost:4000/api/evidence"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",2026-10-07T11:34:27Z
+File replacement,11,true,false,1310.434,PASS,,2026-10-07T11:34:58Z
+Metadata modification,11,true,false,3193.009,PASS,,2026-10-07T11:35:23Z
+Record deletion,11,true,false,2982.352,PASS,,2026-10-07T11:35:58Z
+File modification,12,false,false,30116.270,FAIL,"send POST http://localhost:4000/api/evidence: Post ""http://localhost:4000/api/evidence"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",2026-10-07T11:36:28Z
+File replacement,12,true,false,1543.694,PASS,,2026-10-07T11:36:47Z
+Metadata modification,12,false,false,30135.115,FAIL,"send POST http://localhost:4000/api/evidence: Post ""http://localhost:4000/api/evidence"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",2026-10-07T11:37:17Z
+Record deletion,12,true,false,1020.376,PASS,,2026-10-07T11:37:43Z
+File modification,13,true,false,1276.443,PASS,,2026-10-07T11:38:06Z
+File replacement,13,true,false,2858.795,PASS,,2026-10-07T11:38:22Z
+Metadata modification,13,true,false,1130.710,PASS,,2026-10-07T11:38:45Z
+Record deletion,13,true,false,1257.727,PASS,,2026-10-07T11:38:54Z
+File modification,14,true,false,1288.277,PASS,,2026-10-07T11:39:08Z
+File replacement,14,true,false,1549.055,PASS,,2026-10-07T11:39:19Z
+Metadata modification,14,true,false,2024.721,PASS,,2026-10-07T11:39:34Z
+Record deletion,14,true,false,1543.979,PASS,,2026-10-07T11:40:05Z
+File modification,15,true,false,1483.815,PASS,,2026-10-07T11:40:32Z
+File replacement,15,true,false,1774.155,PASS,,2026-10-07T11:40:55Z
+Metadata modification,15,true,false,1413.783,PASS,,2026-10-07T11:41:19Z
+Record deletion,15,false,false,27789.330,FAIL,blockchain operation failed; check Sepolia RPC configuration and connectivity,2026-10-07T11:41:47Z
+File modification,16,false,false,30138.709,FAIL,"send POST http://localhost:4000/api/evidence: Post ""http://localhost:4000/api/evidence"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",2026-10-07T11:42:18Z
+File replacement,16,false,false,30137.476,FAIL,"send POST http://localhost:4000/api/evidence: Post ""http://localhost:4000/api/evidence"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",2026-10-07T11:42:48Z
+Metadata modification,16,true,false,1063.543,PASS,,2026-10-07T11:43:17Z
+Record deletion,16,false,false,31074.366,FAIL,blockchain operation failed; check Sepolia RPC configuration and connectivity,2026-10-07T11:43:49Z
+File modification,17,true,false,1346.635,PASS,,2026-10-07T11:44:21Z
+File replacement,17,true,false,5117.394,PASS,,2026-10-07T11:44:54Z
+Metadata modification,17,true,false,1611.048,PASS,,2026-10-07T11:45:07Z
+Record deletion,17,false,false,31106.091,FAIL,blockchain operation failed; check Sepolia RPC configuration and connectivity,2026-10-07T11:45:39Z
+File modification,18,true,false,1499.851,PASS,,2026-10-07T11:46:06Z
+File replacement,18,true,false,1134.828,PASS,,2026-10-07T11:46:32Z
+Metadata modification,18,true,false,1231.429,PASS,,2026-10-07T11:47:04Z
+Record deletion,18,true,false,1021.377,PASS,,2026-10-07T11:47:29Z
+File modification,19,true,false,1286.794,PASS,,2026-10-07T11:47:44Z
+File replacement,19,true,false,1414.608,PASS,,2026-10-07T11:48:09Z
+Metadata modification,19,true,false,1275.635,PASS,,2026-10-07T11:48:33Z
+Record deletion,19,true,false,1576.598,PASS,,2026-10-07T11:48:44Z
+File modification,20,true,false,1378.908,PASS,,2026-10-07T11:49:07Z
+File replacement,20,true,false,1325.242,PASS,,2026-10-07T11:49:34Z
+Metadata modification,20,true,false,1154.820,PASS,,2026-10-07T11:50:06Z
+Record deletion,20,true,false,1310.400,PASS,,2026-10-07T11:50:29Z
+File modification,21,true,false,1307.747,PASS,,2026-10-07T11:51:02Z
+File replacement,21,true,false,3305.108,PASS,,2026-10-07T11:51:32Z
+Metadata modification,21,true,false,1258.904,PASS,,2026-10-07T11:51:54Z
+Record deletion,21,true,false,1454.069,PASS,,2026-10-07T11:52:10Z
+File modification,22,true,false,1259.508,PASS,,2026-10-07T11:52:33Z
+File replacement,22,false,false,30171.523,FAIL,"send POST http://localhost:4000/api/evidence: Post ""http://localhost:4000/api/evidence"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",2026-10-07T11:53:04Z
+Metadata modification,22,true,false,1335.256,PASS,,2026-10-07T11:53:31Z
+Record deletion,22,true,false,1568.148,PASS,,2026-10-07T11:53:55Z
+File modification,23,true,false,1961.216,PASS,,2026-10-07T11:54:21Z
+File replacement,23,false,false,30259.301,FAIL,"send POST http://localhost:4000/api/evidence: Post ""http://localhost:4000/api/evidence"": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",2026-10-07T11:54:51Z
+Metadata modification,23,true,false,1116.324,PASS,,2026-10-07T11:55:22Z
+Record deletion,23,true,false,1258.995,PASS,,2026-10-07T11:55:44Z
+File modification,24,true,false,1224.663,PASS,,2026-10-07T11:55:58Z
+File replacement,24,true,false,1606.707,PASS,,2026-10-07T11:56:20Z
+Metadata modification,24,true,false,1097.727,PASS,,2026-10-07T11:56:42Z
+Record deletion,24,true,false,1273.565,PASS,,2026-10-07T11:56:56Z
+File modification,25,true,false,1518.110,PASS,,2026-10-07T11:57:19Z
+File replacement,25,true,false,1165.411,PASS,,2026-10-07T11:57:32Z
+Metadata modification,25,true,false,1139.383,PASS,,2026-10-07T11:57:55Z
+Record deletion,25,true,false,1296.525,PASS,,2026-10-07T11:58:17Z
+File modification,26,true,false,1238.548,PASS,,2026-10-07T11:58:44Z
+File replacement,26,true,false,1815.794,PASS,,2026-10-07T11:59:04Z
+Metadata modification,26,true,false,1023.732,PASS,,2026-10-07T11:59:30Z
+Record deletion,26,true,false,1388.022,PASS,,2026-10-07T11:59:44Z
+File modification,27,true,false,1826.891,PASS,,2026-10-07T12:02:46Z
+File replacement,27,true,false,1858.575,PASS,,2026-10-07T12:03:09Z
+Metadata modification,27,true,false,1048.741,PASS,,2026-10-07T12:03:19Z
+Record deletion,27,true,false,1294.165,PASS,,2026-10-07T12:03:29Z
+File modification,28,true,false,1370.822,PASS,,2026-10-07T12:03:56Z
+File replacement,28,true,false,1267.050,PASS,,2026-10-07T12:04:06Z
+Metadata modification,28,true,false,1155.762,PASS,,2026-10-07T12:04:20Z
+Record deletion,28,true,false,1463.085,PASS,,2026-10-07T12:04:30Z
+File modification,29,true,false,1365.009,PASS,,2026-10-07T12:04:45Z
+File replacement,29,true,false,1480.250,PASS,,2026-10-07T12:04:54Z
+Metadata modification,29,true,false,1247.402,PASS,,2026-10-07T12:05:09Z
+Record deletion,29,true,false,1376.012,PASS,,2026-10-07T12:05:23Z
+File modification,30,true,false,1372.055,PASS,,2026-10-07T12:05:42Z
+File replacement,30,true,false,1630.561,PASS,,2026-10-07T12:05:57Z
+Metadata modification,30,true,false,1154.153,PASS,,2026-10-07T12:06:08Z
+Record deletion,30,true,false,3224.205,PASS,,2026-10-07T12:06:20Z

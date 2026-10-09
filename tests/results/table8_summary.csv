@@ -1,0 +1,7 @@
+Test,Procedure,Trials,Detected,Rate,Mean latency,FP
+File modification,Modify registered file contents,30,26/30,86.67%,5302.670,0
+File replacement,"Replace file, keep evidence ID",30,25/30,83.33%,6503.288,0
+Metadata modification,Change blockchain-bound FIR metadata in the disposable database record,30,26/30,86.67%,3425.038,1
+Record deletion,Remove repository/database record; confirm blockchain registration survives,30,25/30,83.33%,6624.136,0
+Unauthorized write,NOT IMPLEMENTED: current application has no identity-based write authorization,N/A,N/A,N/A,N/A,N/A
+Unauthorized case transfer,NOT IMPLEMENTED: current application has no case-transfer authorization,N/A,N/A,N/A,N/A,N/A

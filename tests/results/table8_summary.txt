@@ -1,0 +1,47 @@
+Table 8 — Tamper-detection and access-control results
+Trials per applicable test: 30
+
+File modification
+Status: PARTIAL/FAILED
+Procedure: Modify registered file contents
+Trials: 30
+Detected: 26/30
+Rate: 86.67%
+Mean detection latency: 5302.670 ms
+False positives: 0
+
+File replacement
+Status: PARTIAL/FAILED
+Procedure: Replace file, keep evidence ID
+Trials: 30
+Detected: 25/30
+Rate: 83.33%
+Mean detection latency: 6503.288 ms
+False positives: 0
+
+Metadata modification
+Status: PARTIAL/FAILED
+Procedure: Change blockchain-bound FIR metadata in the disposable database record
+Trials: 30
+Detected: 26/30
+Rate: 86.67%
+Mean detection latency: 3425.038 ms
+False positives: 1
+
+Record deletion
+Status: PARTIAL/FAILED
+Procedure: Remove repository/database record; confirm blockchain registration survives
+Trials: 30
+Detected: 25/30
+Rate: 83.33%
+Mean detection latency: 6624.136 ms
+False positives: 0
+
+Unauthorized write
+Status: NOT IMPLEMENTED
+Procedure: NOT IMPLEMENTED: current application has no identity-based write authorization
+
+Unauthorized case transfer
+Status: NOT IMPLEMENTED
+Procedure: NOT IMPLEMENTED: current application has no case-transfer authorization
+

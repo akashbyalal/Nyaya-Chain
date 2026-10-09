@@ -1,0 +1,52 @@
+Table 10 — Application-level timing, centralized baseline vs NYAYA-CHAIN
+Default trials per operation: 30
+Overhead (%) = ((NYAYA-CHAIN mean - Baseline mean) / Baseline mean) * 100.
+
+FIR registration time
+Baseline mean: 165.696133 ms
+NYAYA-CHAIN mean:  ms
+Overhead: %
+Baseline median/min/max/stddev: 109.213500 / 92.106000 / 1409.046000 / 234.462905 ms
+NYAYA-CHAIN median/min/max/stddev:  /  /  /  ms
+Notes: Baseline is a direct Supabase FIR insert. The Nyaya FIR endpoint invokes AI analysis and email delivery; it is not called by this harness to avoid triggering external email side effects. FIR registration itself does not call blockchain, so no blockchain-specific Nyaya timing is available.
+
+Evidence upload time
+Baseline mean: 673.972100 ms
+NYAYA-CHAIN mean: 16415.529321 ms
+Overhead: 2335.639%
+Baseline median/min/max/stddev: 491.807500 / 282.078000 / 4786.414000 / 786.223260 ms
+NYAYA-CHAIN median/min/max/stddev: 13914.331000 / 8931.722000 / 29841.692000 / 5639.709651 ms
+Notes: Baseline is Supabase Storage upload plus evidence metadata insert without blockchain. Nyaya measurement is POST /api/evidence through response; it includes SHA-256, storage, database insert, blockchain submission and confirmation.
+
+Hash computation time
+Baseline mean: 0.006167 ms
+NYAYA-CHAIN mean: 0.731827 ms
+Overhead: 11767.464%
+Baseline median/min/max/stddev: 0.005000 / 0.003000 / 0.014000 / 0.002697 ms
+NYAYA-CHAIN median/min/max/stddev: 0.724716 / 0.695566 / 0.852974 / 0.030971 ms
+Notes: Baseline is Go crypto/sha256; Nyaya measurement is Node.js crypto.createHash('sha256'), matching the backend operation. Timer excludes process startup, file I/O, and network.
+
+Verification time
+Baseline mean: 770.618200 ms
+NYAYA-CHAIN mean: 1539.379167 ms
+Overhead: 99.759%
+Baseline median/min/max/stddev: 752.993000 / 476.782000 / 1014.283000 / 145.743517 ms
+NYAYA-CHAIN median/min/max/stddev: 1520.885000 / 1038.004000 / 3145.359000 / 365.311803 ms
+Notes: Baseline reads evidence metadata and the stored object from Supabase and compares SHA-256. Nyaya uses GET /api/evidence/:id/verify and includes the blockchain calls.
+
+Database response time
+Baseline mean: 210.789700 ms
+NYAYA-CHAIN mean: 396.814333 ms
+Overhead: 88.251%
+Baseline median/min/max/stddev: 226.158500 / 125.062000 / 341.081000 / 58.408212 ms
+NYAYA-CHAIN median/min/max/stddev: 353.565500 / 324.919000 / 773.342000 / 110.383563 ms
+Notes: Baseline is direct Supabase REST read of one FIR row. Nyaya is GET /api/firs/:id, which reads FIR and evidence metadata but does not query blockchain.
+
+Senior dashboard response time
+Baseline mean: 374.238067 ms
+NYAYA-CHAIN mean:  ms
+Overhead: %
+Baseline median/min/max/stddev: 319.955000 / 316.153000 / 687.268000 / 102.433653 ms
+NYAYA-CHAIN median/min/max/stddev:  /  /  /  ms
+Notes: Measures the judge verification page's actual API data path: list FIRs, then list evidence for the selected FIR. This is API data loading only; frontend rendering is not measured. Baseline uses equivalent direct Supabase REST reads.
+
